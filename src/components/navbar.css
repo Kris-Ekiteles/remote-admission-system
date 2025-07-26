@@ -20,9 +20,34 @@ li{
     padding: 10px; 
     margin-left: 100px;
 }
+nav a{
+    text-decoration: none;
+}
 nav ul :first-child{
     margin-right: auto;
 }
 nav ul li:last-child{
     margin-right: 100px;
+}
+
+/* styles for mobile/small screen */
+@media (max-width:600px){
+    nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;    
+  margin-top: auto;
+    
+}
+nav ul h2{
+    font-size: 20px;
+}
+li{
+    
+    list-style: none;
+    padding: 3px; 
+    margin-left: 5px;
+}
+
 }
