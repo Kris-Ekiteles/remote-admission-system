@@ -1,0 +1,25 @@
+.About_us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.btn1{
+  background-color: green;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  
+}
+.btn2{
+  background-color: white;
+  color: green;
+  margin: 5px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  
+}
