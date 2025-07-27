@@ -1,53 +1,70 @@
-nav{
-  
-    background-color: green;
-   
-     
-    
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: green;
+  margin-top: auto;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px;
-    margin-left: 20px;
-    
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-left: 20px;
+  height: 50px;
 }
-li{
-    
-    list-style: none;
-    padding: 10px; 
-    margin-left: 100px;
+li {
+  list-style: none;
+  padding: 10px;
+  margin-left: 100px;
 }
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
+  height: 100%;
+  color: white;
 }
-nav ul :first-child{
-    margin-right: auto;
+a:hover {
+  color: yellow;
 }
-nav ul li:last-child{
-    margin-right: 100px;
+nav ul :first-child {
+  margin-right: auto;
+}
+nav ul li:last-child {
+  margin-right: 100px;
 }
 
 /* styles for mobile/small screen */
-@media (max-width:600px){
-    nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;    
-  margin-top: auto;
-    
-}
-nav ul h2{
-    font-size: 20px;
-}
-li{
-    
-    list-style: none;
-    padding: 3px; 
-    margin-left: 5px;
+@media (max-width: 600px) {
+
+  nav{
+    font-size: 12px;
+    background-color: yellowgreen;
+  }
+  nav ul{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  width: 100vw;
+  
+ 
+ 
+  }
+  nav ul li{
+     margin: 0 5px; /* Consistent spacing between items */
+    /* Remove if you don't want any spacing: margin: 0; */
+  }
+  /* nav ul li:last-child {
+  margin-right: 0;
+} */
+nav ul li a {
+ text-decoration: none;
+    color: rgb(228, 30, 30);
+    display: block; /* Makes entire area clickable */
+    padding: 8px 12px; /* Adds touch-friendly spacing */
 }
 
+  
 }
