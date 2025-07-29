@@ -53,17 +53,14 @@ nav ul li:last-child {
  
   }
   nav ul li{
-     margin: 0 5px; /* Consistent spacing between items */
-    /* Remove if you don't want any spacing: margin: 0; */
+     margin: 0 5px; 
   }
-  /* nav ul li:last-child {
-  margin-right: 0;
-} */
+ 
 nav ul li a {
  text-decoration: none;
     color: rgb(228, 30, 30);
-    display: block; /* Makes entire area clickable */
-    padding: 8px 12px; /* Adds touch-friendly spacing */
+    display: block; 
+    padding: 8px 12px;
 }
 
   

@@ -1,11 +1,13 @@
 import "./navbar.css";
+
+
 function Navbar() {
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <a href="">
+            <a href="#">
               <h2>E-HOSPITAL</h2>
             </a>
           </li>
