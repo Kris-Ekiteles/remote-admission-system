@@ -3,6 +3,7 @@ import "./App.css";
 import FormCheck from "./components/landing";
 import Navbar from "./components/navbar";
 import About from "./components/about";
+import Ambulance from "./components/ambulance";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       < Navbar />
       <FormCheck />
       < About />
+      < Ambulance />
     </div>
   );
 }
